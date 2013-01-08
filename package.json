@@ -7,6 +7,8 @@
         "name": "Usablehq Ltd",
         "url": "http://usablehq.com"
     },
+    "private" : true
+    ,
     "dependencies": {
         "js-yaml": "0.3.7"
     },
