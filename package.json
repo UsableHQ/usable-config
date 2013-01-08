@@ -1,0 +1,19 @@
+{
+    "name": "usable-config",
+    "version": "0.0.1",
+    "description": "configuration module for use in usable projects",
+    "homepage": "http://usablehq.com",
+    "author": {
+        "name": "Usablehq Ltd",
+        "url": "http://usablehq.com"
+    },
+    "dependencies": {
+        "js-yaml": "0.3.7"
+    },
+    "main"         : "./lib/config",
+    "directories"  : {"lib"  : "./lib"},
+    "devDependencies": {
+        "chai": "*"
+        },
+    "engines": ["node >= 0.6.0"]
+}
