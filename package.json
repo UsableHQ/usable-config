@@ -10,10 +10,17 @@
     "dependencies": {
         "js-yaml": "0.3.7"
     },
-    "main"         : "./lib/config",
-    "directories"  : {"lib"  : "./lib"},
+    "main": "./lib/config",
+    "directories": {
+        "lib": "./lib"
+    },
+    "scripts": {
+        "install": "make"
+    },
     "devDependencies": {
         "chai": "*"
-        },
-    "engines": ["node >= 0.6.0"]
+    },
+    "engines": [
+        "node >= 0.6.0"
+    ]
 }
